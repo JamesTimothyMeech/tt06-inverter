@@ -1,17 +1,27 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713442895
+timestamp 1713449495
+<< pwell >>
+rect -148 1716 478 1910
+rect 58 1448 228 1716
+<< viali >>
+rect 78 1772 218 1808
 << metal1 >>
-rect 104 1610 304 1810
-rect 114 802 314 1002
-use sky130_fd_pr__res_generic_po_4WEV9M  R1
-timestamp 1713442895
-transform 1 0 213 0 1 1308
-box -266 -761 266 761
+rect -148 1808 478 1910
+rect -148 1772 78 1808
+rect 218 1772 478 1808
+rect -148 1716 478 1772
+rect 58 1542 228 1716
+rect 54 1342 254 1542
+rect 50 770 250 970
+use sky130_fd_pr__res_high_po_0p35_H5J6FD  XR1
+timestamp 1713449345
+transform 1 0 148 0 1 1195
+box -201 -648 201 648
 << labels >>
-flabel metal1 114 802 314 1002 0 FreeSans 256 0 0 0 VDD
+flabel metal1 50 770 250 970 0 FreeSans 256 0 0 0 VDD
 port 0 nsew
-flabel metal1 104 1610 304 1810 0 FreeSans 256 0 0 0 VSS
+flabel metal1 54 1342 254 1542 0 FreeSans 256 0 0 0 VSS
 port 1 nsew
 << end >>
